@@ -1,5 +1,5 @@
 <?php
-namespace App\Libraries;
+namespace My\Library;
 
 if (!extension_loaded('FFI')) {
     throw new \Exception('Ekstensi FFI tidak tersedia. Pastikan FFI diaktifkan di konfigurasi PHP Anda.');
